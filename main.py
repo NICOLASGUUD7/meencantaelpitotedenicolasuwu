@@ -21,15 +21,14 @@ ccs = []
 
 chats  = [
     # '@fullcuentasgratis','
-      '@CHECKEREstefany_bot',
-      '@TheKillPro_Chat',
-      '@TechzillaCheckerChat',
-      '@versacechatp',
-      '@savagegroupoficial',
-      '@dSnowChat'.
-      '@AssociatonBinners1',
-      '@accerroreschecker',
-      '@BinsHellChat'
+    '@CHECKEREstefany_bot',
+    '@TheKillPro_Chat',
+    '@TechzillaCheckerChat',
+    '@versacechatp',
+    '@savagegroupoficial',
+    '@dSnowChat'.
+    '@accerroreschecker',
+    '@BinsHellChat'
 
 
 ]
