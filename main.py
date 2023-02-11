@@ -71,23 +71,17 @@ async def my_event_handler(m):
     text = f"""
 𝗦𝗰𝗿𝗮𝗽𝗽𝗲𝗿 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗸𝗮𝘆𝗼𝗸𝗼
 ——————————————————
-☘️**CC** `{cc}|{mes}|{ano}|{cvv}`
+💵 𝘾𝘾 `{cc}|{mes}|{ano}|{cvv}`
 
-**🌿 BIN INFO:** - ☭ `{cc[:6]}` `{bin_json['brand']} - {bin_json['type']} - {bin_json['level']}`
+📝𝘽𝙄𝙉 𝙄𝙉𝙁𝙊 - ☭ `{cc[:6]}` `{bin_json['brand']} - {bin_json['type']} - {bin_json['level']}`
 
-🌹 **BANK:** `{bin_json['bank']['name']}`
+`{bin_json['bank']['name']}`
 
-🌷 **COUNTRY:** `{bin_json['country']['name']} - {bin_json['country']['flag']` 
+𝘾𝙊𝙐𝙉𝙏𝙍𝙔 `{bin_json['country']['name']} - {bin_json['country']['flag']` 
 
-🌱 **Extra** » 
-♡  ──────── ♡ ──────── 
-❃. `{extra}xxxx|{mes}|{ano}|rnd` 
-♡ ──────── ♡ ──────── ♡_
-━━━━━━━━━━━━━━━━━
-Owner: @ticocr
-━━━━━━━━━━━━━━━━━
-Referencias: @versacerefe
-━━━━━━━━━━━━━━━━━
+𝙀𝙓𝙏𝙍𝘼:  `{extra}xxxx|{mes}|{ano}|rnd`
+
+𝙍𝙚𝙛𝙚𝙧𝙚𝙣𝙘𝙞𝙖𝙨: @versacerefe
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
     with open('cards.txt', 'a') as w:
