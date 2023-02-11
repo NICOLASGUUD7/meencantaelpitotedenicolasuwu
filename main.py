@@ -26,7 +26,7 @@ chats  = [
     '@TechzillaCheckerChat',
     '@versacechatp',
     '@savagegroupoficial',
-    '@dSnowChat'.
+    '@dSnowChat',
     '@accerroreschecker',
     '@BinsHellChat' 
 
