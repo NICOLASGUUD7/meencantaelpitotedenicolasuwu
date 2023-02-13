@@ -13,7 +13,7 @@ import random
 from defs import getUrl, getcards, phone
 API_ID =  27434545
 API_HASH = 'fd803a50b450911cd183d581e98874ba'
-SEND_CHAT = '@versacefree'
+SEND_CHAT = -1001688875850
 
 
 client = TelegramClient('session', API_ID, API_HASH)
@@ -69,22 +69,26 @@ async def my_event_handler(m):
     addr = real_random_address()
     fullinfo = f"{cc}|{mes}|{ano}|{cvv}|{names.get_full_name()}|{addr['address1']}|{addr['city']}|{addr['state']}|{addr['postalCode']}|{phone()}|dob: {datetime.strftime(datetime(random.randint(1960, 2005), random.randint(1, 12),random.randint(1, 28), ), '%Y-%m-%d')}|United States Of America"
     text = f"""
-💵 𝘾𝘾 `{cc}|{mes}|{ano}|{cvv}`
-
-📝𝘽𝙄𝙉 𝙄𝙉𝙁𝙊 - ☭ `{cc[:6]}` `{bin_json['brand']} - {bin_json['type']} - {bin_json['level']}`
-
-`{bin_json['bank']['name']}`
-
-𝘾𝙊𝙐𝙉𝙏𝙍𝙔 `{bin_json['country']['name']} - {bin_json['country']['flag']}` 
-
-𝙀𝙓𝙏𝙍𝘼:  `{extra}xxxx|{mes}|{ano}|rnd`
-
-𝙍𝙚𝙛𝙚𝙧𝙚𝙣𝙘𝙞𝙖𝙨: @versacerefe
+🔸**SCRAPPER - VERSACE**🔸
+━━━━━━━━━━━━━━━━━
+𝘽𝙞𝙣: `{cc[:6]}`
+𝘽𝙞𝙣 𝙏𝙮𝙥𝙚: `{bin_json['brand']} - {bin_json['type']} - {bin_json['level']}`
+𝘽𝙖𝙣𝙠: `{bin_json['bank']['name']}`
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 `{bin_json['country']['name']} - {bin_json['country']['flag']}`
+━━━━━━━━━━━━━━━━━
+𝘾𝘾:  `{cc}|{mes}|{ano}|{cvv}`
+━━━━━━━━━━━━━━━━━
+𝙀𝙭𝙩𝙧𝙖 - `{extra}xxxx|{mes}|{ano}|rnd`
+━━━━━━━━━━━━━━━━━
+**OWNER** : @ticocr
+━━━━━━━━━━━━━━━━━
+**Referencia**: @versacerefe
+━━━━━━━━━━━━━━━━━
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
     with open('cards.txt', 'a') as w:
         w.write(fullinfo + '\n')
-    await client.send_message(SEND_CHAT, text, file = "versace.jpg")
+    await client.send_message(SEND_CHAT, text, file = "vip.jpg")
 
 
 
